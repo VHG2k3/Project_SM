@@ -1,0 +1,78 @@
+@font-face {
+    font-family:"Gotham-Ultra" ;
+    src: url('../fonts/Gotham-Ultra.otf');
+}
+.banner-home{
+    width:100%;
+    margin-top: 5rem;
+}
+.homeBanner_Content h1,h2{
+    font-size: 2.2rem;
+    font-weight: bolder;
+    font-family: "Gotham-Ultra";
+}
+.homeBanner_Content h1{
+    color:#2c2e53;
+}
+.homeBanner_Content h2{
+    color:#bd945f;
+}
+.homeBanner_Content p{
+    color:#000;
+    font-size: 0.8rem;
+    font-family: 'Gotham-Medium';
+    width:500px;
+    margin-top: 2rem;
+}
+.homeBanner_Content{
+    top:6rem;
+    left:8rem;
+}
+.contact-button{
+    text-decoration: none;
+    position:absolute;
+    font-family: "Gotham-Ultra";
+    text-transform: uppercase;
+    background-color: #bd945f;
+    padding:0.8rem;
+    color:#fff;
+    top:70%;
+    left:13%; 
+    
+}
+
+.contact-button:hover{
+    color:#bd945f;
+    background-color: #fff;
+    border: 4px solid #bd945f;
+}
+
+.Categories{
+    position: relative;
+    top:3rem;
+}
+.title-category{
+    font-family: "Gotham-Ultra";
+    color:#2c2e53;
+    margin-top:1rem;
+    
+}
+a{
+    text-decoration: none!important;
+}
+.title-category:hover{
+    color:#bd945f
+}
+.ListCategories{
+    width:80%;
+    background-color: white;
+    top: 33rem;
+    left: 8.5rem 
+}
+.banner-home{
+    background-color: whitesmoke;
+    padding-bottom: 20rem;
+}
+.category{
+    padding-left:4.5rem;
+}

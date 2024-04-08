@@ -1,0 +1,111 @@
+
+@font-face {
+    font-family:"Gotham-Medium" ;
+    src: url('../fonts/Gotham-Medium.otf');
+}
+*{
+    font-family: "Gotam-Medium";
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-size: 18px;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    z-index: 1000;/* Đảm bảo thanh navigation hiển thị trên các phần khác của trang */
+    -webkit-box-shadow: 0px 8px 23px 2px rgba(204,204,204,1);
+    -moz-box-shadow: 0px 8px 23px 2px rgba(204,204,204,1);
+    box-shadow: 0px 8px 23px 2px rgba(204,204,204,1);
+   
+}
+.navbar-brand{
+    width:4rem;
+    height: 4rem;
+   color:#bd945f!important;
+   font-family: 'Gotham-Medium';
+   font-weight: bolder;
+   font-size: 1.8rem;
+   border-radius: 50%;
+   padding-top:0.6rem;
+   padding-left:0.1rem;
+   border:1px solid #bd945f;
+   background-color: #000;
+    margin:0.5rem 3rem 0.5rem 3rem;
+
+}
+
+.logo-img{
+    margin: 0rem 8rem; 
+    width:80%;
+}
+.nav-link{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #000 !important;;
+    margin-right: 1rem;
+    font-family: 'Gotham-Medium';
+    position: relative;
+   
+}
+
+.navbar .nav-item:hover:after, .navbar .nav-item.active:after {
+    width: 40%;
+}
+.navbar .nav-item:after {
+    content: "";
+    position: absolute;
+    top: 1.8rem;
+    left: 0.5rem;
+    height: 0;
+    width: 0;
+    border-bottom: 0.3rem solid #bd945f;
+    transition: 0.3s ease;
+}
+.btn-outline-success{
+    color:#000;
+    border-color: #000;
+}
+.btn-outline-success:hover {
+    color: #000;
+    background-color: #bd945f;
+    border-color: #bd945f;
+}
+.me-30{
+    margin-right: 30rem;
+}
+.h-banner{
+    height: 440px!important;
+}
+.bg-f3{
+    background-color: #f3f3f3;
+}
+.bg-white{
+    background-color: white;
+}
+.f-medium{
+    font-family: "Gotham-Medium";
+}
+
+.List_reSearch{
+    position: fixed;
+    top: 20%;
+    right: 1%;
+    z-index: 1000;
+    width: 18.5rem;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 35%);
+    border-radius: 5px;
+}
+.w-img{
+    width: 20%;
+}
+.reSearch:hover{
+    background-color: #e6e6e68e;
+    transition: 0.3s ease;
+}

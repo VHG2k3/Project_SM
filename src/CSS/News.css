@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Gotham-Ultra';
+    src: url("../fonts/Gotham-Ultra.otf");
+}
+.List-news{
+    width: 85%;
+    margin-top: 10rem;
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    padding: 2rem 
+}
+.title-news-left{
+    text-transform: uppercase;
+    color: #bd945f;
+    font-family: Gotham-Ultra;
+    font-size: 1.2rem;
+}
+.content-news-left{
+    font-size: 0.9rem;
+    text-align: justify;
+    color: var(--color);
+    font-family: Gotham-Medium;
+}
+.news-right{
+    margin-top:2rem;
+}
+.news-right .news-right-image{
+    width: 12rem;
+    height: auto;
+    margin-right: 2rem;
+}
+.news-right .title-news-right a{
+    color: #007bff;
+    text-decoration: none;
+    font-family: "Gotham-Medium";
+    font-size: 0.9rem;
+}

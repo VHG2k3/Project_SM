@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('../fonts/Gotham-Medium.otf');
+}
+.product-detail{
+    width:80%;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+.product-detail .title{
+    color:#2c2e53;
+    font-family: "Gotham-Medium";
+    font-size: 2rem;
+}
+.product-detail .price{
+    font-size: 0.8rem;
+    color: #888888;
+    text-decoration: line-through;
+    font-family: "Gotham-Medium";
+    padding-top: 0rem;
+}
+.product-detail .sellprice{
+    font-size: 0.8rem;
+    color: #000;
+    font-family: "Gotham-Medium";
+}
+.product-detail .product-image{
+    width:30rem;
+    height: auto;
+}
+.App {
+    text-align: left;
+}

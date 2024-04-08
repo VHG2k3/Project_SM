@@ -1,0 +1,48 @@
+@font-face {
+    font-family:"Gotham-Medium" ;
+    src: url('../fonts/Gotham-Medium.otf');
+}
+*{
+    font-family: "Gotam-Medium";
+    text-decoration: none;
+    list-style: none;
+}
+html{
+    font-size: 18px;
+}
+.result-search{
+    background: #f3f3f3;
+    margin-top: 6rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
+}
+.result{
+    background-color: white;
+    width:80%;
+    margin-left: 7.5rem;
+}
+.header p{
+    font-family: Gotham-Ultra;
+    color: #2c2e53;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.header p:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 52%;
+    transform: translateX(-50%);
+    width: 50%;
+    width: 100%;
+    border-top: 0.35rem solid #bd945f;
+}
+.form-select{
+    width:20%;
+    top: 20%;
+    right: 2%;
+}
